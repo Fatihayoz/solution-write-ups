@@ -2,11 +2,13 @@
 
 ```
 pH Scale is used to determine if an solution is acidic or basic (alkaline). 
-ph Scale has value between 0 and 14. The value under 7 is considered as acidic, the value over 7 is considered as basic. The value 7 is considered as neutral.
+ph Scale has value between 0 and 14. The value under 7 is considered as acidic, 
+the value over 7 is considered as basic. The value 7 is considered as neutral.
 
 This function returns if a solution is acidic or basic according to the given ph Scale. 
 
-This function could be useful if you are writing an chemistry app and needed to determine the which solution is acidic or basic. 
+This function could be useful if you are writing an chemistry app and 
+needed to determine the which solution is acidic or basic. 
 ```
 
 ## Syntax
@@ -88,7 +90,9 @@ const pHName = pH => pH < 0 || pH > 14 ? 'invalid' :
 ### Strategy
 
 ```
-This problem has four return values in a range of 0 and 14 (all included). mbbentley chose the strategy of looking for the value of the argument between the specific edge values.
+This problem has four return values in a range of 0 and 14 (all included). 
+
+mbbentley chose the strategy of looking for the value of the argument between the specific edge values.
 ```
 
 ### Implementation
@@ -96,8 +100,12 @@ This problem has four return values in a range of 0 and 14 (all included). mbben
 ```
 mbbentley wrote a two-line function of his strategy that uses the edge values to get the correct answers. 
 He used ternary (?) and logical or (||) operators. 
-As ternary and logical operators return values according to the truthy or falsy of conditions/expressions, he didn't need a return statement. 
-He first eliminate the out-range values by the logical or operator, then checked for the in-range values. For the in-range values of the argument he used the ternary operator. 
+
+As ternary and logical operators return values according to the truthy or 
+falsy of conditions/expressions, he didn't need a return statement. 
+
+He first eliminate the out-range values by the logical or operator, then checked for the in-range values. 
+For the in-range values of the argument he used the ternary operator. 
 ```
 
 ### Possible Refactors
