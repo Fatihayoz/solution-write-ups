@@ -63,7 +63,11 @@ simo checks if the given number is divisible by five or not.
 
 ```
 simo writes one-line function to solve the challange. 
-He first used the "remainder" operator to check if the given number is divisible by five. For divisibility by five as the "remainder" operator gives only two results: 0 for the numbers which are divisible by five and 1 for the numbers which are not divisible by five, he then used the "not" operator to return boolean values: "true" for 0 and "false" for 1.  
+
+He first used the "remainder" operator to check if the given number is divisible by five. 
+For divisibility by five as the "remainder" operator gives only two results: 
+0 for the numbers which are divisible by five and 1 for the numbers which are not divisible by five, 
+he then used the "not" operator to return boolean values: "true" for 0 and "false" for 1.  
 ```
 
 ### Possible Refactors
