@@ -73,16 +73,6 @@ This strategy could also be implemented with:
     * "if else" statement
     * "remainder (%)" operator
 
-
-
-List a couple changes you could make in their code without changing their strategy.
-For example:
-  `while` loops and `for` loops can often be interchanged.
-  `if else`, `switch case` and `_ ? _ : _` can sometimes be interchanged.
-
-You don't need to actually rewrite the function.
-The goal of this section is that you exploring different JS language features
-and think of different ways to implement the same strategy.
 ```
 
 ### References
@@ -153,5 +143,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logi
 ## Retrospective
 
 ```
-It is a good practice to use "logical not" operator to return numbers to booleans. Only !0 returns the boolean value true.
+It is a good practice to use "logical not" operator to return numbers to booleans. 
+Only !0 returns the boolean value true.
 ```
