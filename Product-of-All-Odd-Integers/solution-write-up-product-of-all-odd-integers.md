@@ -1,9 +1,14 @@
 # [Product of All Odd Integers](https://edabit.com/challenge/4LnwAC3kgTctc7r3k)
 
 ```
-Odd numbers are the whole numbers that can't be divided into equal pairs. Odd numbers have the numbers 1, 3, 5, 7 or 9 in their ones place.
+Odd numbers are the whole numbers that can't be divided into equal pairs. 
+Odd numbers have the numbers 1, 3, 5, 7 or 9 in their ones place.
 The function returns the product of all odd integers in a given array.
-This function could be helpful if you are writing an app which only accepts the odd numbers that are written as two different odd numbers. Because only the product of an odd number by an odd number gives an odd number. All the other possibilities return even numbers. 
+
+This function could be helpful if you are writing an app which only accepts 
+the odd numbers that are written as two different odd numbers. 
+Because only the product of an odd number by an odd number gives an odd number. 
+All the other possibilities return even numbers. 
 ```
 
 ## Syntax
@@ -63,7 +68,8 @@ function oddProduct(arr) {
 ### Strategy
 
 ```
-Kiernan Hogan first tried to find the odd integers in the given array, then he multiplied the returned values.
+Kiernan Hogan first tried to find the odd integers in the given array, 
+then he multiplied the returned values.
 ```
 
 ### Implementation
@@ -71,10 +77,20 @@ Kiernan Hogan first tried to find the odd integers in the given array, then he m
 ```
 Kiernan Hogan wrote a two-line function to solve the challenge. 
 He used "filter()" and "reduce()" methods in his solution. 
-"filter()" method returns a new array with all elements that pass the test which is implemented by the given function.
-"reduce()" method returns a function you write on each element of the array and results a single output value.
-He first got the odd integers as an array by "filter()" method. In this method, he find the odd numbers by the "remainder" operator by strictly unequalizing them to zero. 
-Then he had the product by using "reduce()" method. In this method, he wrote a "reducer function" inside the statement with two parameters and an equation.  
+
+"filter()" method returns a new array with all elements that pass the test 
+which is implemented by the given function.
+
+"reduce()" method returns a function you write on each element of the array 
+and results a single output value.
+
+He first got the odd integers as an array by "filter()" method. 
+In this method, he find the odd numbers by the "remainder" operator 
+by strictly unequalizing them to zero. 
+
+Then he had the product by using "reduce()" method. 
+In this method, he wrote a "reducer function" inside the statement 
+with two parameters and an equation.  
 ```
 
 ### Possible Refactors
@@ -118,7 +134,8 @@ I first determined the odd numbers, the find the product of them.
 ### Implementation
 I wrote a function that uses "filter()" method and "for" loop. 
 
-In the first step, "filter()" method creates a new array with all elements that pass the test implemented by the provided function. That gives the odd integers as an array.
+In the first step, "filter()" method creates a new array with all elements 
+that pass the test implemented by the provided function. That gives the odd integers as an array.
 
 In the next step, "for" loop iterates over the every element in the new array and multiplies. 
 
