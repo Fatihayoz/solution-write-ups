@@ -64,7 +64,9 @@ function societyName(friends) {
 ### Strategy
 
 ```
-andytanghr first tried to find the first letter of each element in the array, then he converted them to uppercase. And then sorted them in alphabetical order and join them together as a string.
+andytanghr first tried to find the first letter of each element in the array, 
+then he converted them to uppercase. And then sorted them in alphabetical order 
+and join them together as a string.
 ```
 
 ### Implementation
@@ -72,12 +74,18 @@ andytanghr first tried to find the first letter of each element in the array, th
 ```
 He used the "map()", "toUpperCase()", "sort()" and "join()"  methods.
 
-The map() method creates a new array populated with the results of calling a provided function on every element in the calling array.
+The map() method creates a new array populated with the results of calling 
+a provided function on every element in the calling array.
 The toUpperCase() method returns the calling string value converted to uppercase.
 The sort() method sorts the elements of an array and returns the sorted array.
-The join() method creates and returns a new string by concatenating all of the elements in an array separated by commas or a specified separator string.
+The join() method creates and returns a new string by concatenating all of the elements 
+in an array separated by commas or a specified separator string.
 
-He first found the first letter of every element by using the zeroth index and "map()" method. By doing this he got an array of first letters of all the elements in the given array. Then he used the "toUpperCase()" method to make the elements uppercase. And then he sorted them in alphabetical order by using "sort()" method. At last, he used the "join('')" method to convert the array into a string without any spaces between them.
+He first found the first letter of every element by using the zeroth index and "map()" method. 
+By doing this he got an array of first letters of all the elements in the given array. 
+Then he used the "toUpperCase()" method to make the elements uppercase. 
+And then he sorted them in alphabetical order by using "sort()" method. 
+At last, he used the "join('')" method to convert the array into a string without any spaces between them.
 ```
 
 ### Possible Refactors
